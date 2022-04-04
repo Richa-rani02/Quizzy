@@ -1,5 +1,4 @@
 import "./Home.css";
-import { Link } from "react-router-dom";
 import { category } from "../../data/data";
 import { SearchBox,Modal} from "../../components/index";
 import {useState} from "react";

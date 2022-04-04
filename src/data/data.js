@@ -13,22 +13,27 @@ export const category = [
     }
   ];
   
-  export const questionList = [
+  export const rules=[
     {
-      prompt: "Who is the Orange cap holder in IPL 2021?",
-      optionA: "Rituraj Gaikwad",
-      optionB: "Rohit Sharma",
-      optionC: "Virat Kohli",
-      optionD: "Ravindra Jadega",
-      asnwer: "optionA"
+      id:"1",
+      rule:"There will be 10 question in this quiz"
     },
     {
-      prompt: "Who is the Orange cap holder in IPL 2021?",
-      optionA: "Rituraj Gaikwad",
-      optionB: "Rohit Sharma",
-      optionC: "Virat Kohli",
-      optionD: "Ravindra Jadega",
-      asnwer: "optionB"
-    }
-  ];
+     id:"2",
+     rule:"On attempting a question correctly. You will awarded 10 points."
+   },
+   {
+     id:"3",
+     rule:"On attempting a question incorrectly, 10 points will be deducted."
+   },
+   {
+     id:"4",
+     rule:"You will have only 10 seconds per each question."
+   },
+   {
+     id:"5",
+     rule:"Once you select your answer, you can't change it."
+   }
+ 
+  ]
   

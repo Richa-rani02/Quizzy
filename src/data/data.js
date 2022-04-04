@@ -1,13 +1,16 @@
 export const category = [
     {
+      id:1,
       name: "Famous Cuisine",
       image: "../Assets/cuisineindia.jpg"
     },
     {
+      id:2,
       name: "Famous Festival",
       image: "../Assets/indianfestival.jpg"
     },
     {
+      id:3,
       name: "Famous Places",
       image: "../Assets/placesindia.jpg"
     }
@@ -36,4 +39,15 @@ export const category = [
    }
  
   ]
+  export const questionList = [
+    {
+      prompt: "The western ghats in Maharashtra is known as?",
+      optionA: " Nilgiris",
+      optionB: "Sahyadris",
+      optionC: "Cardamon Hills ",
+      optionD: "Annamalai",
+      asnwer: "optionB"
+    },
+  ];
+
   

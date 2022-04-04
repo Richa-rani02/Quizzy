@@ -8,10 +8,10 @@ export const Modal = ({isModalActive,setModalActive}) => {
     navigate("/question");
  }
     return (
-        <div class={`modal-container ${isModalActive && 'modal-active'}`}>
-            <div class="popup">
-                <div class="modal-content display-flex-col">
-                    <h2 class="heading-1 bottom-gutter-md center-text">RULES 📑</h2>
+        <div className={`modal-container ${isModalActive && 'modal-active'}`}>
+            <div className="popup">
+                <div className="modal-content display-flex-col">
+                    <h2 className="heading-1 bottom-gutter-md center-text">RULES 📑</h2>
                     <div className="rules-list">
                         {rules.map((rule) => (
                             <div key={rule.id} className="bottom-gutter-sm">
@@ -21,8 +21,8 @@ export const Modal = ({isModalActive,setModalActive}) => {
 
                     </div>
                 </div>
-                <div class="modal-btn" onClick={()=>clickHandler()}>
-                    <button class="btn btn-solid-primary btn-sm btn-rounded-5">Start Quiz</button>
+                <div className="modal-btn" onClick={()=>clickHandler()}>
+                    <button className="btn btn-solid-primary btn-sm btn-rounded-5">Start Quiz</button>
                 </div>
             </div>
         </div>

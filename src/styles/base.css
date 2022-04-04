@@ -19,6 +19,7 @@ body::-webkit-scrollbar {
    --bg-color:#F7F8FC;
    --accent-color:hsl(147, 60%, 43%);
    --text-heading-color:#0F1E26;
+   --highlighted-color:#E8EFFF;
 
   /* green */
   --green-1:hsl(147, 60%, 80%);

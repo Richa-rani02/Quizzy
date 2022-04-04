@@ -35,9 +35,9 @@ export const Navbar = () => {
         onClick={() => setISMobile(!isMobile)}
       >
         {isMobile ? (
-          <i class="fa fa-times" aria-hidden="true"></i>
+          <i className="fa fa-times" aria-hidden="true"></i>
         ) : (
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i className="fa fa-bars" aria-hidden="true"></i>
         )}
       </button>
     </nav>

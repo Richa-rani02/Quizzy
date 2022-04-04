@@ -1,13 +1,16 @@
 export const category = [
     {
+      id:1,
       name: "Famous Cuisine",
       image: "../Assets/cuisineindia.jpg"
     },
     {
+      id:2,
       name: "Famous Festival",
       image: "../Assets/indianfestival.jpg"
     },
     {
+      id:3,
       name: "Famous Places",
       image: "../Assets/placesindia.jpg"
     }

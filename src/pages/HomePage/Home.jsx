@@ -10,7 +10,7 @@ export const Home = () => {
       <SearchBox />
       <div className="category__container top-gutter-lg">
         {category.map((quiz) => (
-         <div className="category">
+         <div className="category" key={quiz.id}>
            <div onClick={()=>setModalActive(prev=>!prev)} >
              <div className="img-container">
             <img src={quiz.image} alt="" className="responsive-img" />

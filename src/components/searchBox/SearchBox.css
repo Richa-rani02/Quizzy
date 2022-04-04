@@ -1,0 +1,25 @@
+.search-form{
+    width: 45%;
+    height:2.5rem;
+    background-color: var(--black-1);
+    border-radius:var(--spacing-5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--purple-5);
+}
+ .search-form input{
+    height:100%;
+    width:100%;
+    font-size: 1.1rem;
+    color:var(--black-8);
+    padding:0 var(--spacing-1-5);
+    flex-wrap: wrap;
+}
+
+.search-form label{
+    font-size: 1.2rem;
+    padding-right: var(--spacing-1-5);
+    color:var(--brand-color);
+    cursor: pointer;
+}

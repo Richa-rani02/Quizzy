@@ -67,5 +67,8 @@ a {
 .flex-container{
 display: flex;
 align-items:center;
-justify-content: center;
+}
+
+.auto-margin{
+    margin-left: auto;
 }

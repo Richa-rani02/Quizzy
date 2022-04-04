@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 
 html, body {
     height: 100%;
@@ -14,19 +14,35 @@ html {
 body::-webkit-scrollbar {
     display: none;
 }
-
-
 :root {
-
+   
    --bg-color:#F7F8FC;
+   --accent-color:hsl(147, 60%, 43%);
+   --text-heading-color:#0F1E26;
+
+  /* green */
+  --green-1:hsl(147, 60%, 50%);
+  --green-2:hsl(147, 60%, 43%);
+  --green-3:hsl(147, 60%, 35%);
 
 
 
+   /* purple */
+   --purple-1:hsl(272, 42%, 85%);
+   --purple-2:hsl(272, 42%, 70%);
+   --purple-3:hsl(272, 42%, 60%);
+   --purple-4:hsl(272, 42%, 45%);
+   --purple-5:hsl(272, 42%, 35%);
+   --purple-6:hsl(272, 42%, 28%);
+   --purple-7:hsl(272, 42%, 12%);
+
+  
     /* black */
     --black-1: hsl(0, 0%, 100%);
     --black-2: hsl(0, 0%, 93%);
     --black-3: hsl(0, 0%, 80%);
     --black-4: hsl(0, 0%, 70%);
+    --black-9:hsl(0, 0%, 50%);
     --black-5: hsl(0, 0%, 40%);
     --black-6: hsl(0, 0%, 30%);
     --black-7: hsl(0, 0%, 18%);
@@ -60,4 +76,15 @@ body::-webkit-scrollbar {
     --spacing-5: 5rem;
     --z-index-2: 2;
     --z-index-3: 3;
+}
+
+/* Media Queries */
+
+@media (max-width:768px){
+
+
+   .home__section .search-form{
+        width:100%;
+    }
+
 }

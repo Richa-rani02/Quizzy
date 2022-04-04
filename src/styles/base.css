@@ -14,8 +14,6 @@ html {
 body::-webkit-scrollbar {
     display: none;
 }
-
-
 :root {
    
    --bg-color:#F7F8FC;
@@ -78,4 +76,15 @@ body::-webkit-scrollbar {
     --spacing-5: 5rem;
     --z-index-2: 2;
     --z-index-3: 3;
+}
+
+/* Media Queries */
+
+@media (max-width:768px){
+
+
+   .home__section .search-form{
+        width:100%;
+    }
+
 }

@@ -27,7 +27,7 @@ export const Navbar = () => {
           <li>Dashboard</li>
         </Link>
         <Link to="login" className="login">
-          <li>Login</li>
+        <li>Login</li>
         </Link>
       </ul>
       <button

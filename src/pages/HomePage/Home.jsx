@@ -1,7 +1,6 @@
 import "./Home.css";
-import { Link } from "react-router-dom";
 import { category } from "../../data/data";
-import { SearchBox} from "../../components/index";
+import { SearchBox,Modal} from "../../components/index";
 import {useState} from "react";
 
 export const Home = () => {
@@ -24,6 +23,7 @@ export const Home = () => {
          </div>
        ))}
       </div>
+      <Modal isModalActive={isModalActive} setModalActive={setModalActive}/>
     </div>
 
 

@@ -19,7 +19,7 @@
   width: 22rem;
   overflow: hidden;
   border-radius: var(--spacing-10x);
-  background-color: var(--green-1);
+  background-color: var(--green-2);
   box-shadow: 0.5px 0.4px 0.4px var(--black-9);
   -webkit-transition: box-shadow .6s ease-out;
   box-shadow: .8px .9px 3px var(--black-9);

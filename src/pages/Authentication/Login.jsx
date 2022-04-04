@@ -10,7 +10,7 @@ export const Login=()=>{
                     <input type="email" name="email" value="" placeholder="Email" className="input-box"/>
                     <input type="password" name="password" value="" placeholder="Password" className="input-box" />
                     <div className="auth-links">
-                    <p>forget your password <a href="#" className="link-text-primary">click here</a></p>
+                    <p>forget your password <Link to="/login" className="link-text-primary">click here</Link></p>
                     <p>don't have an account <Link to="/signup" className="link-text-primary">create new</Link></p>
                     </div>
                     

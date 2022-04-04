@@ -36,4 +36,15 @@ export const category = [
    }
  
   ]
+  export const questionList = [
+    {
+      prompt: "The western ghats in Maharashtra is known as?",
+      optionA: " Nilgiris",
+      optionB: "Sahyadris",
+      optionC: "Cardamon Hills ",
+      optionD: "Annamalai",
+      asnwer: "optionB"
+    },
+  ];
+
   

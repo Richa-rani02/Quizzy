@@ -25,10 +25,10 @@ export const Questions = () => {
           <div className="question__body bottom-gutter-sm" key="1">
             <strong className="question-heading">{question.prompt}</strong>
             <div className="center-text top-gutter-lg" >
-              <div className="answer-options">{question.optionA}</div>
-              <div className="answer-options">{question.optionB}</div>
-              <div className="answer-options">{question.optionC}</div>
-              <div className="answer-options">{question.optionD}</div>
+              <div className="answer-options hover-transition">{question.optionA}</div>
+              <div className="answer-options hover-transition">{question.optionB}</div>
+              <div className="answer-options hover-transition">{question.optionC}</div>
+              <div className="answer-options hover-transition">{question.optionD}</div>
             </div>
             <div className="flex-container">
             <Link to="/result" class="btn btn-solid-primary btn-sm btn-rounded-5 auto-margin">Next</Link>

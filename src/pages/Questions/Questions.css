@@ -35,15 +35,17 @@
   border-radius: var(--spacing-10x);
   font-size: 1.2rem;
   border: 1px solid var(--purple-5);
-  box-shadow: 0 0 0 var(--black-9);
-  -webkit-transition: box-shadow .6s ease-out;
-  transition: all 0.5s ease;
+  box-shadow: 0px 0px 0px var(--black-9);
+  -webkit-transition:  box-shadow .5s ease-out;
 }
 
-.answer-options:hover {
+.answer-options:not(.no-hover):hover {
   background-color: var(--purple-1);
-  box-shadow: 1px 8px 10px var(--black-9);
-  -webkit-transition: box-shadow .6s ease-in;
+  
+}
+.hover-transition:hover{
+  box-shadow: 1px 8px 20px var(--black-9);
+  -webkit-transition:  box-shadow .5s ease-in;
 }
 
 .question__body {
@@ -60,5 +62,5 @@
   border-radius: var(--spacing-5x);
   font-weight: 600;
   color: var(--black-1);
-
 }
+

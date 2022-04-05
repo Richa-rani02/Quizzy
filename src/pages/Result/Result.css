@@ -1,0 +1,24 @@
+.result__section {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .result {
+    background-color: inherit;
+    height: max-content;
+    width: max-content;
+    padding: var(--spacing-2);
+    color: var(--text-color);
+  }
+  
+  .score-text {
+    font-size: 1.4rem;
+    font-family: "Roboto Slab", serif;
+  }
+  .correct-answer{
+    background-color: var(--green-3);
+  }
+  .wrong-answer{
+    background-color:  var(--wrong-color);
+  }

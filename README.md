@@ -20,6 +20,7 @@ Quiz Application  [Quizzy](https://quizzy-v1.netlify.app/).
 
 ## Demo
 
+![Quizzy demo](https://user-images.githubusercontent.com/49235266/162105754-d28a7656-70ed-43dd-9d39-e6df3082c0d3.gif)
 
 
 
